@@ -5,7 +5,7 @@ Tool: [ArCatch](https://github.com/EvidenSE/ArCatch)
 Analyzed Project: [Flink](https://github.com/apache/flink/tree/master/flink-core)
 
 ## Goal:
-Static-architecture conformance checking of exception handling design in the Flink project.
+Static-architecture conformance checking of exception handling design on the Flink project.
 
 ## Summary
 

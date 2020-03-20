@@ -1,0 +1,1555 @@
+Rule Id;Violation Kind;Violating Unit;Violation Label;First Unit;Second Unit
+ADR16;DRIFT;org.apache.flink.configuration.ResourceManagerOptions;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeinfo.TypeHint;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.functions.RichJoinFunction;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.core.memory.DataOutputViewStreamWrapper;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.util.WrappingRuntimeException;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.typeutils.runtime.KryoRegistrationSerializerConfigSnapshot;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.base.DateComparator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple0Builder;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.typeutils.runtime.CopyableValueSerializer$CopyableValueSerializerConfigSnapshot;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.base.CrossOperatorBase;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.accumulators.IntMinimum;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.types.parser.ByteParser;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.core.memory.MemoryUtils;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.types.parser.ShortParser;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.Keys$SelectorFunctionKeys;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.typeutils.runtime.EitherSerializerConfigSnapshot;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.base.array.StringArraySerializer;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.types.parser.StringParser;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.io.InputStreamFSInputWrapper;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.GenericPairComparator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.types.parser.StringValueParser;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.types.Row;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.time.Time;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.base.MapPartitionOperatorBase;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.base.DoubleComparator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.util.FlinkException;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple25Builder;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.types.Either;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.core.fs.LimitedConnectionsFileSystem$OutStream;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.TypeSerializerSerializationUtil;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.state.MapStateDescriptor;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.SemanticProperties$InvalidSemanticAnnotationException;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.util.FutureUtil;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.base.EnumComparator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.functions.util.FunctionUtils;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.base.LongComparator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.configuration.TaskManagerOptions;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.io.DefaultInputSplitAssigner;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.util.LambdaUtil;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.base.BigIntComparator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple8Builder;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.accumulators.IntCounter;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.configuration.ConfigOptions$OptionBuilder;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.resources.Resource;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple4Builder;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.accumulators.DoubleMaximum;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.util.FlinkRuntimeException;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.typeutils.PojoTypeInfo$PojoTypeComparatorBuilder;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.core.fs.ClosingFSDataInputStream;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.base.array.IntPrimitiveArraySerializer;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.restartstrategy.RestartStrategies$FixedDelayRestartStrategyConfiguration;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.io.BinaryInputFormat$BlockBasedInput;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.util.SerializableObject;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.util.MathUtils;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.JobID;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.configuration.ConfigurationUtils;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple21Builder;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.distributions.CommonRangeBoundaries;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.aggregators.AggregatorWithName;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.util.UnionIterator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.CollectionExecutor$DynamicPathCollector;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.base.array.ShortPrimitiveArraySerializer;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.types.parser.LongValueParser;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.base.FloatComparator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.types.DeserializationException;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.functions.RichGroupReduceFunction;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.base.array.CharPrimitiveArrayComparator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.io.LocatableInputSplitAssigner;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple14Builder;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.functions.RichFoldFunction;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple13Builder;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.core.fs.CloseableRegistry;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.core.fs.ClosingFSDataOutputStream;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.base.CollectionSerializerConfigSnapshot;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.configuration.BlobServerOptions;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.configuration.AkkaOptions;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.typeutils.EitherTypeInfoFactory;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.Keys$ExpressionKeys;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.core.fs.FileSystemSafetyNet;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.typeutils.runtime.KryoRegistrationSerializerConfigSnapshot$DummyRegisteredClass;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.CompatibilityResult;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.core.fs.local.LocalDataOutputStream;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.base.ByteComparator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.typeutils.PojoTypeInfo$NamedFlatFieldDescriptor;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.UnloadableTypeSerializerException;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.io.FileInputFormat$FileBaseStatistics;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.types.parser.ShortValueParser;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.TypeSerializerSerializationUtil$TypeSerializerConfigSnapshotSerializationProxy;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.aggregators.DoubleZeroConvergence;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.TypePairComparator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.core.fs.local.LocalFileSystemFactory;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.typeutils.runtime.kryo.Serializers$SpecificInstanceCollectionSerializer;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.core.fs.LimitedConnectionsFileSystem$StreamProgressTracker;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.core.fs.SafetyNetCloseableRegistry;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.accumulators.DoubleCounter;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.functions.util.NoOpFunction;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.core.fs.FileInputSplit;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.base.array.DoublePrimitiveArraySerializer;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.ResourceSpec$Builder;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.util.ResourceGuard;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.functions.util.RuntimeUDFContext;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.base.NullValueSerializer;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.typeutils.runtime.KryoRegistrationSerializerConfigSnapshot$DummyKryoSerializerClass;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.typeutils.runtime.RuntimePairComparatorFactory;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.DualInputSemanticProperties;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.typeutils.TypeInfoParser;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.util.JoinHashMap$Prober;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.typeutils.TypeExtractionException;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.core.fs.local.LocalBlockLocation;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.configuration.AlgorithmOptions;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.types.parser.LongParser;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.base.IntComparator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.typeutils.runtime.FieldSerializer;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.core.fs.local.LocalFileStatus;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.util.CollectionUtil;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.io.SerializedOutputFormat;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.functions.AbstractRichFunction;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.base.array.BytePrimitiveArrayComparator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.io.compression.Bzip2InputStreamFactory;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.base.array.BytePrimitiveArraySerializer;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.core.fs.LimitedConnectionsFileSystem$StreamTimeoutException;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.UnaryOperatorInformation;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.core.fs.FSDataOutputStream;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.serialization.SimpleStringSchema;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.util.StringValueUtils$WhitespaceTokenizer;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.configuration.HeartbeatManagerOptions;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple3Builder;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.types.parser.FloatValueParser;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.base.MapOperatorBase;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.functions.RichGroupCombineFunction;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.util.OutputTag;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.typeutils.runtime.NoFetchingInput;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.GenericTypeSerializerConfigSnapshot;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.util.TraversableOnceException;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.functions.util.CopyingListCollector;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.types.parser.BigIntParser;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.util.PropertiesUtil;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.typeutils.TupleTypeInfo$TupleTypeComparatorBuilder;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.util.InstantiationUtil$ClassLoaderObjectInputStream;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.types.NullKeyFieldException;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.functions.InvalidTypesException;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.types.Either$Left;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.state.AggregatingStateDescriptor;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.core.memory.MemorySegmentFactory;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.configuration.HistoryServerOptions;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.functions.util.CopyingIterator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple10Builder;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.Tuple25;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.accumulators.LongMinimum;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.Tuple24;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.typeutils.runtime.RuntimeSerializerFactory;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple15Builder;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.types.parser.BooleanValueParser;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.ExecutionConfig$SerializableSerializer;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.io.BinaryInputFormat$SequentialStatistics;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.accumulators.DoubleMinimum;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.typeutils.runtime.kryo.Serializers$DummyAvroKryoSerializerClass;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.state.ListStateDescriptor;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.aggregators.DoubleSumAggregator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.configuration.OptimizerOptions;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.Tuple23;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.Tuple22;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.base.BooleanComparator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.Tuple21;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.core.fs.SafetyNetCloseableRegistry$CloseableReaperThread;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.Tuple20;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.Tuple16;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.Tuple15;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.Tuple14;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.Tuple13;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.Tuple19;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.Tuple18;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.Tuple17;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.base.CharComparator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.cache.DistributedCache;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.types.parser.IntParser;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.util.ExecutorUtils;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple20Builder;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.JobExecutionResult;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.util.SerializedValue;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.functions.NullByteKeySelector;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.CollectionExecutor$CompletedFuture;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.io.ReplicatingInputSplitAssigner;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.util.ListKeyGroupedIterator$ValuesIterator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.typeutils.runtime.KryoRegistration;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.Tuple12;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.Tuple11;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.typeutils.MultisetTypeInfo;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.Tuple10;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.functions.RichFlatMapFunction;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.aggregators.LongSumAggregator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.typeutils.AvroUtils;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.ArchivedExecutionConfig;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.core.fs.UnsupportedSchemeFactory;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.accumulators.LongCounter;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.io.compression.DeflateInflaterInputStreamFactory;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.base.ReduceOperatorBase;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.types.JavaToValueConverter;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.restartstrategy.RestartStrategies;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.SingleInputSemanticProperties$AllFieldsForwardedProperties;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.io.FilePathFilter$DefaultFilter;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple9Builder;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.configuration.ConfigConstants;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.core.fs.ConnectionLimitingFactory;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.JobSubmissionResult;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.types.NullFieldException;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.io.RichInputFormat;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.aggregators.LongZeroConvergence;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.util.XORShiftRandom;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.OperatorInformation;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.io.BinaryOutputFormat$BlockBasedOutput;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.base.array.FloatPrimitiveArraySerializer;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.core.io.VersionMismatchException;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.configuration.WebOptions;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.base.array.ShortPrimitiveArrayComparator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.base.CoGroupOperatorBase$CoGroupSortListIterator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.core.io.PostVersionedIOReadableWritable;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.util.StateMigrationException;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.util.UserCodeObjectWrapper;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.state.FoldingStateDescriptor;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.configuration.HighAvailabilityOptions;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.types.Nothing;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.configuration.SecurityOptions;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.Tuple1;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.Tuple0;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.Tuple3;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.state.ReducingStateDescriptor;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.Tuple2;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.Tuple5;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.Tuple4;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.Tuple7;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.Tuple6;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.Tuple9;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.Tuple8;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.typeutils.runtime.kryo.JavaSerializer;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.base.FilterOperatorBase;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.restartstrategy.RestartStrategies$FallbackRestartStrategyConfiguration;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.functions.RichCrossFunction;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.util.SplittableIterator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.util.OptionalConsumer;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.functions.RichFilterFunction;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.base.CoGroupRawOperatorBase$SimpleListIterable;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.base.CoGroupRawOperatorBase$SimpleListIterable$SimpleListIterator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.Tuple;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.base.OuterJoinOperatorBase$OuterJoinListIterator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeinfo.NumericTypeInfo;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.types.parser.SqlDateParser;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.base.BulkIterationBase$TerminationCriterionMapper;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.base.MapSerializerConfigSnapshot;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.io.BlockInfo;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.base.BulkIterationBase$TerminationCriterionAggregationConvergence;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.core.fs.local.LocalDataInputStream;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.functions.RichAggregateFunction;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.typeutils.runtime.KryoUtils;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.Keys$IncompatibleKeysException;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.typeutils.AvroUtils$DefaultAvroUtils;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.types.parser.DoubleValueParser;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.util.StringValueUtils;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.base.BulkIterationBase$TerminationCriterionAggregator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.SingleInputSemanticProperties;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.base.ShortComparator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.SameTypePairComparator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.BinaryOperatorInformation;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.base.array.BooleanPrimitiveArraySerializer;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.SemanticProperties$EmptySemanticProperties;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.typeutils.runtime.TupleComparator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.util.ShutdownHookUtil;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.configuration.UnmodifiableConfiguration;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.base.array.DoublePrimitiveArrayComparator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.util.WrappingProxyUtil;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.accumulators.ListAccumulator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.CompatibilityUtil;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.base.InnerJoinOperatorBase;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.util.ListKeyGroupedIterator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.state.ValueStateDescriptor;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.typeutils.runtime.RuntimeComparatorFactory;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.accumulators.LongMaximum;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.types.parser.BigDecParser;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.util.DynamicCodeLoadingException;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.core.fs.UnsupportedFileSystemSchemeException;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.configuration.CoreOptions;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.configuration.GlobalConfiguration;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.base.array.LongPrimitiveArrayComparator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.typeutils.runtime.RowSerializer$RowSerializerConfigSnapshot;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple19Builder;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.core.fs.FileSystem$FSKey;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.base.DeltaIterationBase$WorksetPlaceHolder;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.time.Deadline;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.configuration.ConfigOptions;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.base.StringComparator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.core.io.GenericInputSplit;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.base.JoinOperatorBase;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.restartstrategy.RestartStrategies$NoRestartStrategyConfiguration;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.base.BigDecComparator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.typeutils.runtime.TupleSerializerConfigSnapshot;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple16Builder;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.core.memory.ByteArrayInputStreamWithPos;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.base.array.FloatPrimitiveArrayComparator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.base.EnumSerializer$EnumSerializerConfigSnapshot;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.CompositeType$InvalidFieldReferenceException;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.core.memory.DataInputViewStreamWrapper;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.accumulators.SerializedListAccumulator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.accumulators.AverageAccumulator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.functions.RichMapPartitionFunction;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple11Builder;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.configuration.CheckpointingOptions;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.io.SerializedInputFormat;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.typeutils.runtime.kryo.Serializers;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple22Builder;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.base.BulkIterationBase$PartialSolutionPlaceHolder;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.typeutils.RowTypeInfo$RowTypeComparatorBuilder;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.typeutils.TypeExtractionUtils$LambdaExecutable;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.TypeSerializerConfigSnapshot;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.types.parser.ByteValueParser;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.types.parser.FloatParser;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.typeutils.runtime.kryo.MinlogForwarder;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.types.parser.IntValueParser;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.resources.GPUResource;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.core.fs.LimitedConnectionsFileSystem$ConnectionLimitingSettings;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.base.PartitionOperatorBase;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.CollectionExecutor$IterationRuntimeUDFContext;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.util.CloseableIterable$Empty;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.typeutils.runtime.DataOutputViewStream;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.serialization.TypeInformationSerializationSchema;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple2Builder;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.io.GlobFilePathFilter;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.types.parser.SqlTimestampParser;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.TaskInfo;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.typeutils.runtime.NullMaskUtils;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.io.FileInputFormat$InputSplitOpenThread;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.base.array.IntPrimitiveArrayComparator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.functions.RichReduceFunction;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.util.StringBasedID;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.io.compression.GzipInflaterInputStreamFactory;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.types.parser.DoubleParser;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.serialization.AbstractDeserializationSchema;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.typeutils.runtime.DataInputViewStream;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.core.memory.HeapMemorySegment$HeapMemorySegmentFactory;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.InvalidProgramException;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.configuration.QueryableStateOptions;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple1Builder;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.cache.DistributedCache$DistributedCacheEntry;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.functions.RichCoGroupFunction;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple5Builder;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.typeutils.PojoField;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.configuration.MetricOptions;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.configuration.JobManagerOptions;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.Plan$MaxDopVisitor;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeinfo.FractionalTypeInfo;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeinfo.IntegerTypeInfo;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.aggregators.AggregatorRegistry;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.ParameterlessTypeSerializerConfig;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.types.parser.BooleanParser;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.functions.util.ListCollector;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.accumulators.IntMaximum;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.base.OuterJoinOperatorBase;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.restartstrategy.RestartStrategies$FailureRateRestartStrategyConfiguration;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.util.InstantiationUtil$FailureTolerantObjectInputStream;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.util.ReflectionUtil$FullTypeInfo;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.CollectionExecutor;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple24Builder;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.accumulators.AccumulatorHelper;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.functions.RichMapFunction;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.core.io.VersionedIOReadableWritable;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.io.GenericInputFormat;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple7Builder;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.Keys;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.configuration.RestOptions;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.typeutils.runtime.kryo.Serializers$DummyAvroRegisteredClass;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.io.LocatableInputSplitAssigner$LocatableInputSplitWithCount;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.typeutils.runtime.kryo.Serializers$SpecificInstanceCollectionSerializerForArrayList;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.core.fs.FSDataInputStream;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.util.NumberSequenceIterator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.base.SortPartitionOperatorBase;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.CompositeType$FlatFieldDescriptor;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.typeutils.runtime.KryoRegistrationSerializerConfigSnapshot$KryoRegistrationSerializationProxy;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.io.ParseException;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.base.VoidSerializer;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeinfo.TypeInfoFactory;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.base.DeltaIterationBase$SolutionSetPlaceHolder;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.CompositeTypeSerializerConfigSnapshot;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple17Builder;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple18Builder;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple12Builder;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.base.SqlTimestampComparator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.util.TypeComparable;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.types.parser.SqlTimeParser;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.io.BinaryOutputFormat;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.CompositeTypeComparator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.base.FlatMapOperatorBase;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.util.AbstractID;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.types.KeyFieldOutOfBoundsException;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.base.SqlTimestampSerializer;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.typeutils.runtime.PojoSerializer$PojoSerializerConfigSnapshot;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.base.GenericArraySerializerConfigSnapshot;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.io.RichOutputFormat;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.base.GroupCombineOperatorBase;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.base.GroupReduceOperatorBase;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.util.ResourceGuard$Lease;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.core.fs.FSDataOutputStreamWrapper;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.base.array.CharPrimitiveArraySerializer;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.functions.RichFlatJoinFunction;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.AbstractUdfOperator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.typeutils.runtime.ValueSerializer$ValueSerializerConfigSnapshot;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.TypeSerializerSerializationUtil$TypeSerializerSerializationProxy;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.typeutils.runtime.kryo.KryoSerializerDebugInitHelper;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.core.io.LocatableInputSplit;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.util.SerializedThrowable;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.accumulators.Histogram;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.typeutils.runtime.kryo.KryoSerializer$KryoSerializerConfigSnapshot;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.util.UserCodeClassWrapper;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.io.FilePathFilter;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.configuration.IllegalConfigurationException;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.NonSerializableUserCodeException;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.util.ConfigurationException;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.Union;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple23Builder;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.base.array.BooleanPrimitiveArrayComparator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.io.LocatableInputSplitAssigner$LocatableInputSplitChooser;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.base.array.LongPrimitiveArraySerializer;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.types.Either$Right;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.util.JoinHashMap;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.core.fs.AbstractMultiFSDataInputStream;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.operators.GenericDataSourceBase;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.restartstrategy.RestartStrategies$RestartStrategyConfiguration;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple6Builder;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.util.LongValueSequenceIterator;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.io.compression.XZInputStreamFactory;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.ExecutionConfig$GlobalJobParameters;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.api.common.typeutils.base.TypeSerializerSingleton;NoM > 10;none;none
+ADR16;DRIFT;org.apache.flink.core.fs.SafetyNetCloseableRegistry$PhantomDelegatingCloseableRef;NoM > 10;none;none
+ADR13;DRIFT;org.apache.flink.types.ByteValue;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.configuration.ResourceManagerOptions;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeinfo.TypeHint;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.functions.RichJoinFunction;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.memory.DataOutputViewStreamWrapper;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.WrappingRuntimeException;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.KryoRegistrationSerializerConfigSnapshot;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.CharValueComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.EitherSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.ByteValueComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.DateComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple0Builder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.CopyableValueSerializer$CopyableValueSerializerConfigSnapshot;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.base.CrossOperatorBase;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.accumulators.IntMinimum;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.LongValueSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.parser.ByteParser;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.memory.MemoryUtils;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.parser.ShortParser;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.Keys$SelectorFunctionKeys;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.EitherSerializerConfigSnapshot;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.array.StringArraySerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.parser.StringParser;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.SingleInputOperator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.io.InputStreamFSInputWrapper;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.CopyableValueSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.GenericPairComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.parser.StringValueParser;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.Row;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.base.CoGroupOperatorBase;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.time.Time;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.base.MapPartitionOperatorBase;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.DoubleComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.FlinkException;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple25Builder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.Either;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.fs.LimitedConnectionsFileSystem$OutStream;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.TypeSerializerSerializationUtil;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.state.MapStateDescriptor;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.SemanticProperties$InvalidSemanticAnnotationException;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.ShortSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.FutureUtil;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.EnumComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.functions.util.FunctionUtils;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.LongComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.fs.SafetyNetWrapperFileSystem;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.configuration.TaskManagerOptions;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.io.DefaultInputSplitAssigner;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.LambdaUtil;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.BigIntComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple8Builder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.accumulators.IntCounter;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.configuration.ConfigOptions$OptionBuilder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.DualInputOperator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.resources.Resource;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple4Builder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.accumulators.DoubleMaximum;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.FlinkRuntimeException;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.PojoTypeInfo$PojoTypeComparatorBuilder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.fs.ClosingFSDataInputStream;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.array.IntPrimitiveArraySerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.restartstrategy.RestartStrategies$FixedDelayRestartStrategyConfiguration;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.io.BinaryInputFormat$BlockBasedInput;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.SerializableObject;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.MathUtils;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.io.GenericCsvInputFormat;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.JobID;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.configuration.ConfigurationUtils;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple21Builder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.IntValueSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.distributions.CommonRangeBoundaries;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.aggregators.AggregatorWithName;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.base.DeltaIterationBase;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.fs.LimitedConnectionsFileSystem;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.UnionIterator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.CollectionExecutor$DynamicPathCollector;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.array.ShortPrimitiveArraySerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeinfo.BasicArrayTypeInfo;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.parser.LongValueParser;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.FloatComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.DeserializationException;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.TupleTypeInfo;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.functions.RichGroupReduceFunction;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.ExceptionUtils;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.array.CharPrimitiveArrayComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.io.LocatableInputSplitAssigner;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple14Builder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.functions.RichFoldFunction;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.io.FileInputFormat;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple13Builder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.MapValue;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.fs.CloseableRegistry;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.fs.ClosingFSDataOutputStream;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.CollectionSerializerConfigSnapshot;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.ValueSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.configuration.BlobServerOptions;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.configuration.AkkaOptions;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.EitherTypeInfoFactory;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.Keys$ExpressionKeys;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.fs.FileSystemSafetyNet;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.KryoRegistrationSerializerConfigSnapshot$DummyRegisteredClass;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.CompatibilityResult;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.FloatValueSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.memory.ByteArrayOutputStreamWithPos;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.fs.local.LocalDataOutputStream;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.ByteComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.StringUtils;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.PojoTypeInfo$NamedFlatFieldDescriptor;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.UnloadableTypeSerializerException;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.io.FileInputFormat$FileBaseStatistics;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.parser.ShortValueParser;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.TypeSerializerSerializationUtil$TypeSerializerConfigSnapshotSerializationProxy;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.fs.FileSystem;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.aggregators.DoubleZeroConvergence;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.TypePairComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.ExecutionConfig;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.fs.local.LocalFileSystemFactory;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.kryo.Serializers$SpecificInstanceCollectionSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.fs.LimitedConnectionsFileSystem$StreamProgressTracker;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.fs.SafetyNetCloseableRegistry;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.accumulators.DoubleCounter;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.Ordering;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.functions.util.NoOpFunction;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.fs.FileInputSplit;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.array.DoublePrimitiveArraySerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.ResourceSpec$Builder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.ResourceGuard;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.functions.util.RuntimeUDFContext;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.NullValueSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.KryoRegistrationSerializerConfigSnapshot$DummyKryoSerializerClass;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.TupleSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.GenericTypeComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.RuntimePairComparatorFactory;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.DualInputSemanticProperties;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.BooleanValueComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.TypeInfoParser;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.util.JoinHashMap$Prober;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.TypeExtractionException;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.fs.local.LocalBlockLocation;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.configuration.AlgorithmOptions;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.parser.LongParser;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.IntComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.SqlDateSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.FieldSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.fs.local.LocalFileStatus;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.CollectionUtil;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.io.SerializedOutputFormat;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.AbstractCloseableRegistry;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.CharValue;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.functions.AbstractRichFunction;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.fs.FSDataInputStreamWrapper;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.BooleanValue;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.array.BytePrimitiveArrayComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.io.compression.Bzip2InputStreamFactory;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.array.BytePrimitiveArraySerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.TupleComparatorBase;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.fs.LimitedConnectionsFileSystem$StreamTimeoutException;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.NetUtils;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.configuration.MemorySize;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.fs.FSDataOutputStream;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.serialization.SimpleStringSchema;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.StringValueUtils$WhitespaceTokenizer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.configuration.HeartbeatManagerOptions;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple3Builder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.parser.FloatValueParser;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.base.MapOperatorBase;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.functions.RichGroupCombineFunction;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.OutputTag;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.NoFetchingInput;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.GenericTypeSerializerConfigSnapshot;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeinfo.PrimitiveArrayTypeInfo;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.TupleSerializerBase;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.TraversableOnceException;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.TypeDeserializerAdapter;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.functions.util.CopyingListCollector;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.parser.BigIntParser;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.memory.DataInputDeserializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.configuration.DelegatingConfiguration;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.PropertiesUtil;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.TupleTypeInfo$TupleTypeComparatorBuilder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.InstantiationUtil$ClassLoaderObjectInputStream;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.GenericDataSinkBase;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.NullKeyFieldException;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.functions.InvalidTypesException;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.RowComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.Either$Left;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.ListValue;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.state.AggregatingStateDescriptor;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.memory.MemorySegment;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.memory.MemorySegmentFactory;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.configuration.HistoryServerOptions;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.GenericArraySerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.functions.util.CopyingIterator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.SqlTimeSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple10Builder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.io.BinaryInputFormat;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.Tuple25;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.accumulators.LongMinimum;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.Tuple24;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.RuntimeSerializerFactory;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple15Builder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.parser.BooleanValueParser;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.ExecutionConfig$SerializableSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.DoubleValue;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.RowTypeInfo;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.io.BinaryInputFormat$SequentialStatistics;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.InstantiationUtil;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.accumulators.DoubleMinimum;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.kryo.Serializers$DummyAvroKryoSerializerClass;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.FloatSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.Plan;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.state.ListStateDescriptor;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.aggregators.DoubleSumAggregator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.configuration.OptimizerOptions;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.Tuple23;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.Tuple22;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.BooleanComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.Tuple21;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.fs.SafetyNetCloseableRegistry$CloseableReaperThread;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.Tuple20;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.Tuple16;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.Tuple15;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.Tuple14;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.CharSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.Tuple13;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.Tuple19;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.Tuple18;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.Tuple17;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.kryo.KryoSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.ValueComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeinfo.SqlTimeTypeInfo;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.CharComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.cache.DistributedCache;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.parser.IntParser;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.ExecutorUtils;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple20Builder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.JobExecutionResult;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.FloatValueComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.SerializedValue;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.functions.NullByteKeySelector;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.io.DelimitedInputFormat;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.CollectionExecutor$CompletedFuture;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.io.ReplicatingInputSplitAssigner;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.util.ListKeyGroupedIterator$ValuesIterator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.KryoRegistration;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.EnumSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.Tuple12;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.Tuple11;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.MultisetTypeInfo;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.Tuple10;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.functions.RichFlatMapFunction;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.aggregators.LongSumAggregator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.AvroUtils;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.ArchivedExecutionConfig;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.fs.UnsupportedSchemeFactory;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.accumulators.LongCounter;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.io.compression.DeflateInflaterInputStreamFactory;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.DoubleSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.base.ReduceOperatorBase;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.JavaToValueConverter;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.restartstrategy.RestartStrategies;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.SingleInputSemanticProperties$AllFieldsForwardedProperties;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.io.FilePathFilter$DefaultFilter;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.ListTypeInfo;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple9Builder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.configuration.ConfigConstants;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.LongSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.fs.ConnectionLimitingFactory;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.JobSubmissionResult;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.NullFieldException;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.io.RichInputFormat;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.aggregators.LongZeroConvergence;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.XORShiftRandom;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.DoubleValueSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.CompositeType;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.io.BinaryOutputFormat$BlockBasedOutput;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.array.FloatPrimitiveArraySerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.io.VersionMismatchException;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.util.FieldList;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.UnloadableDummyTypeSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.configuration.WebOptions;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.array.ShortPrimitiveArrayComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.parser.FieldParser;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.base.CoGroupOperatorBase$CoGroupSortListIterator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.io.PostVersionedIOReadableWritable;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.StateMigrationException;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.util.UserCodeObjectWrapper;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.state.FoldingStateDescriptor;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.configuration.HighAvailabilityOptions;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.Nothing;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.TupleTypeInfoBase;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.configuration.SecurityOptions;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.Tuple1;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.fs.LimitedConnectionsFileSystem$InStream;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.Tuple0;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.Tuple3;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.state.ReducingStateDescriptor;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.Tuple2;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.Tuple5;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.Tuple4;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.Tuple7;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.Tuple6;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.Tuple9;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.Tuple8;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.kryo.JavaSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.base.FilterOperatorBase;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.PlanExecutor;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.restartstrategy.RestartStrategies$FallbackRestartStrategyConfiguration;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.functions.RichCrossFunction;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.ByteValueSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.SplittableIterator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.OptionalConsumer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.functions.RichFilterFunction;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.Operator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.base.CoGroupRawOperatorBase$SimpleListIterable;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.ValueTypeInfo;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.base.CoGroupRawOperatorBase$SimpleListIterable$SimpleListIterator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.DateSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.Tuple;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.base.OuterJoinOperatorBase$OuterJoinListIterator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.memory.HybridMemorySegment;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeinfo.NumericTypeInfo;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.parser.SqlDateParser;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.base.BulkIterationBase$TerminationCriterionMapper;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.CharValueSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.MapSerializerConfigSnapshot;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.io.BlockInfo;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.LongValueComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.base.BulkIterationBase$TerminationCriterionAggregationConvergence;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.fs.local.LocalDataInputStream;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.functions.RichAggregateFunction;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.KryoUtils;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.Keys$IncompatibleKeysException;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.TypeExtractor;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.AvroUtils$DefaultAvroUtils;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.parser.DoubleValueParser;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.StringValueUtils;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.base.BulkIterationBase$TerminationCriterionAggregator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.SingleInputSemanticProperties;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.ShortComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.SameTypePairComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.array.BooleanPrimitiveArraySerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.fs.local.LocalFileSystem;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.SemanticProperties$EmptySemanticProperties;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.TupleComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.IntValue;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.ShutdownHookUtil;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.configuration.UnmodifiableConfiguration;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.array.DoublePrimitiveArrayComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.WrappingProxyUtil;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.NullValueComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.io.FileOutputFormat;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeinfo.Types;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.accumulators.ListAccumulator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.BooleanValueSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.CompatibilityUtil;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.IOUtils;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.base.InnerJoinOperatorBase;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.util.ListKeyGroupedIterator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.GenericTypeInfo;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.DoubleValueComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.state.ValueStateDescriptor;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.RuntimeComparatorFactory;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.accumulators.LongMaximum;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.parser.BigDecParser;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.DynamicCodeLoadingException;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.fs.UnsupportedFileSystemSchemeException;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.configuration.CoreOptions;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.NullValue;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.configuration.GlobalConfiguration;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.EnumTypeInfo;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.ListSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.array.LongPrimitiveArrayComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.RowSerializer$RowSerializerConfigSnapshot;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.PojoTypeInfo;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple19Builder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.fs.FileSystem$FSKey;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.base.DeltaIterationBase$WorksetPlaceHolder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.time.Deadline;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.configuration.ConfigOptions;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.StringComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.io.GenericInputSplit;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.base.JoinOperatorBase;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.restartstrategy.RestartStrategies$NoRestartStrategyConfiguration;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.FileUtils;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.BigDecComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.TupleSerializerConfigSnapshot;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple16Builder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.memory.ByteArrayInputStreamWithPos;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeinfo.BasicTypeInfo;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.IntValueComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.memory.HeapMemorySegment;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.array.FloatPrimitiveArrayComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.EnumSerializer$EnumSerializerConfigSnapshot;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.CompositeType$InvalidFieldReferenceException;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.memory.DataOutputSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.ShortValueSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.BasicTypeComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.EitherTypeInfo;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.memory.DataInputViewStreamWrapper;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.ShortValue;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.accumulators.SerializedListAccumulator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.accumulators.AverageAccumulator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.functions.RichMapPartitionFunction;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.Preconditions;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.BooleanSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple11Builder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.configuration.CheckpointingOptions;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.util.FieldSet;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.io.SerializedInputFormat;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.kryo.Serializers;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple22Builder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.base.BulkIterationBase$PartialSolutionPlaceHolder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.RowTypeInfo$RowTypeComparatorBuilder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.TypeExtractionUtils$LambdaExecutable;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.RowSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.TypeSerializerConfigSnapshot;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.StringValueComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.parser.ByteValueParser;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.parser.FloatParser;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.kryo.MinlogForwarder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.parser.IntValueParser;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.resources.GPUResource;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.fs.LimitedConnectionsFileSystem$ConnectionLimitingSettings;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.MapTypeInfo;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.base.PartitionOperatorBase;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.CollectionExecutor$IterationRuntimeUDFContext;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.CloseableIterable$Empty;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.DataOutputViewStream;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.Record;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.base.BulkIterationBase;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.Record$InternalDeSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.serialization.TypeInformationSerializationSchema;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple2Builder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.io.GlobFilePathFilter;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.configuration.Configuration;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.parser.SqlTimestampParser;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.TaskInfo;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.NullMaskUtils;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.io.FileInputFormat$InputSplitOpenThread;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.BigIntSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.array.IntPrimitiveArrayComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.functions.RichReduceFunction;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.StringBasedID;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.io.compression.GzipInflaterInputStreamFactory;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.parser.DoubleParser;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.serialization.AbstractDeserializationSchema;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.DataInputViewStream;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.PojoSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.memory.HeapMemorySegment$HeapMemorySegmentFactory;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.NullAwareComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.fs.Path;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.ResourceSpec;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.configuration.QueryableStateOptions;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple1Builder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.cache.DistributedCache$DistributedCacheEntry;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.functions.RichCoGroupFunction;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple5Builder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.PojoField;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.configuration.MetricOptions;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.configuration.JobManagerOptions;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.Plan$MaxDopVisitor;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeinfo.FractionalTypeInfo;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeinfo.IntegerTypeInfo;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.aggregators.AggregatorRegistry;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.ParameterlessTypeSerializerConfig;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.parser.BooleanParser;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.functions.util.ListCollector;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.PojoComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.accumulators.IntMaximum;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.base.OuterJoinOperatorBase;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.restartstrategy.RestartStrategies$FailureRateRestartStrategyConfiguration;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.InstantiationUtil$FailureTolerantObjectInputStream;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.ReflectionUtil$FullTypeInfo;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.CollectionExecutor;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple24Builder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.accumulators.AccumulatorHelper;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.ObjectArrayTypeInfo;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.ReflectionUtil;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.StringValueSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.functions.RichMapFunction;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.io.VersionedIOReadableWritable;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.FloatValue;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.io.GenericInputFormat;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple7Builder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.Keys;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.configuration.RestOptions;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.configuration.ConfigOption;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.functions.util.AbstractRuntimeUDFContext;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.kryo.Serializers$DummyAvroRegisteredClass;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.MissingTypeInfo;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.io.LocatableInputSplitAssigner$LocatableInputSplitWithCount;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.kryo.Serializers$SpecificInstanceCollectionSerializerForArrayList;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.fs.FSDataInputStream;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.ShortValueComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.CompilerHints;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.NumberSequenceIterator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.base.SortPartitionOperatorBase;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.CompositeType$FlatFieldDescriptor;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.KryoRegistrationSerializerConfigSnapshot$KryoRegistrationSerializationProxy;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.io.ParseException;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.VoidSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.Tuple0Serializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeinfo.NothingTypeInfo;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeinfo.TypeInfoFactory;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.BigDecSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.OptionalFailure;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.base.DeltaIterationBase$SolutionSetPlaceHolder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.StringSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.CompositeTypeSerializerConfigSnapshot;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple17Builder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple18Builder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.array.PrimitiveArrayComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple12Builder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.SqlTimestampComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.IntSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.util.TypeComparable;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.base.CoGroupRawOperatorBase;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.parser.SqlTimeParser;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.io.BinaryOutputFormat;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.CompositeTypeComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.base.FlatMapOperatorBase;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.AbstractID;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.KeyFieldOutOfBoundsException;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.SqlTimestampSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.PojoSerializer$PojoSerializerConfigSnapshot;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.GenericArraySerializerConfigSnapshot;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.io.RichOutputFormat;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.base.GroupCombineOperatorBase;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.base.GroupReduceOperatorBase;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.ResourceGuard$Lease;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.fs.FSDataOutputStreamWrapper;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.array.CharPrimitiveArraySerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.functions.RichFlatJoinFunction;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.AbstractUdfOperator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.ValueSerializer$ValueSerializerConfigSnapshot;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.TypeSerializerSerializationUtil$TypeSerializerSerializationProxy;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.kryo.KryoSerializerDebugInitHelper;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.io.LocatableInputSplit;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.SerializedThrowable;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.accumulators.Histogram;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.kryo.KryoSerializer$KryoSerializerConfigSnapshot;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.ByteSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.util.UserCodeClassWrapper;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.io.FilePathFilter;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.configuration.IllegalConfigurationException;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.NonSerializableUserCodeException;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.ConfigurationException;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.io.ReplicatingInputFormat;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.Union;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple23Builder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.array.BooleanPrimitiveArrayComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.io.LocatableInputSplitAssigner$LocatableInputSplitChooser;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.array.LongPrimitiveArraySerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.Either$Right;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.util.JoinHashMap;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.fs.AbstractMultiFSDataInputStream;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.operators.GenericDataSourceBase;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.runtime.CopyableValueComparator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.restartstrategy.RestartStrategies$RestartStrategyConfiguration;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.state.StateDescriptor;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple6Builder;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.LongValue;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.util.LongValueSequenceIterator;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.io.compression.XZInputStreamFactory;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.types.StringValue;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.ExecutionConfig$GlobalJobParameters;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.java.typeutils.TypeExtractionUtils;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.api.common.typeutils.base.MapSerializer;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR13;DRIFT;org.apache.flink.core.fs.SafetyNetCloseableRegistry$PhantomDelegatingCloseableRef;(Ce / (Ce + Ca)) <= 0.3;none;none
+ADR15;DRIFT;org.apache.flink.types.ByteValue;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.configuration.ResourceManagerOptions;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeinfo.TypeHint;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.functions.RichJoinFunction;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.memory.DataOutputViewStreamWrapper;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.WrappingRuntimeException;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.KryoRegistrationSerializerConfigSnapshot;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.CharValueComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.EitherSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.ByteValueComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.DateComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple0Builder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.CopyableValueSerializer$CopyableValueSerializerConfigSnapshot;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.base.CrossOperatorBase;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.accumulators.IntMinimum;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.LongValueSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.parser.ByteParser;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.memory.MemoryUtils;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.parser.ShortParser;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.Keys$SelectorFunctionKeys;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.EitherSerializerConfigSnapshot;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.array.StringArraySerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.parser.StringParser;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.SingleInputOperator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.io.InputStreamFSInputWrapper;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.CopyableValueSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.GenericPairComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.parser.StringValueParser;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.Row;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.base.CoGroupOperatorBase;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.time.Time;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.base.MapPartitionOperatorBase;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.DoubleComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.FlinkException;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple25Builder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.Either;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.fs.LimitedConnectionsFileSystem$OutStream;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.TypeSerializerSerializationUtil;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.state.MapStateDescriptor;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.SemanticProperties$InvalidSemanticAnnotationException;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.ShortSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.FutureUtil;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.EnumComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.functions.util.FunctionUtils;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.LongComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.fs.SafetyNetWrapperFileSystem;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.io.DefaultInputSplitAssigner;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.LambdaUtil;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.BigIntComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple8Builder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.accumulators.IntCounter;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.configuration.ConfigOptions$OptionBuilder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.DualInputOperator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.resources.Resource;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple4Builder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.accumulators.DoubleMaximum;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.FlinkRuntimeException;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.PojoTypeInfo$PojoTypeComparatorBuilder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.fs.ClosingFSDataInputStream;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.array.IntPrimitiveArraySerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.restartstrategy.RestartStrategies$FixedDelayRestartStrategyConfiguration;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.io.BinaryInputFormat$BlockBasedInput;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.SerializableObject;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.MathUtils;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.JobID;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.configuration.ConfigurationUtils;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple21Builder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.IntValueSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.distributions.CommonRangeBoundaries;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.aggregators.AggregatorWithName;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.base.DeltaIterationBase;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.fs.LimitedConnectionsFileSystem;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.UnionIterator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.CollectionExecutor$DynamicPathCollector;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.array.ShortPrimitiveArraySerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeinfo.BasicArrayTypeInfo;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.parser.LongValueParser;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.FloatComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.DeserializationException;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.TupleTypeInfo;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.functions.RichGroupReduceFunction;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.ExceptionUtils;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.array.CharPrimitiveArrayComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.io.LocatableInputSplitAssigner;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple14Builder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.functions.RichFoldFunction;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple13Builder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.MapValue;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.fs.CloseableRegistry;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.fs.ClosingFSDataOutputStream;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.CollectionSerializerConfigSnapshot;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.ValueSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.configuration.BlobServerOptions;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.EitherTypeInfoFactory;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.Keys$ExpressionKeys;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.fs.FileSystemSafetyNet;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.KryoRegistrationSerializerConfigSnapshot$DummyRegisteredClass;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.CompatibilityResult;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.FloatValueSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.memory.ByteArrayOutputStreamWithPos;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.fs.local.LocalDataOutputStream;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.ByteComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.StringUtils;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.PojoTypeInfo$NamedFlatFieldDescriptor;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.UnloadableTypeSerializerException;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.io.FileInputFormat$FileBaseStatistics;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.parser.ShortValueParser;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.TypeSerializerSerializationUtil$TypeSerializerConfigSnapshotSerializationProxy;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.fs.FileSystem;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.aggregators.DoubleZeroConvergence;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.TypePairComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.fs.local.LocalFileSystemFactory;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.kryo.Serializers$SpecificInstanceCollectionSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.fs.LimitedConnectionsFileSystem$StreamProgressTracker;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.fs.SafetyNetCloseableRegistry;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.accumulators.DoubleCounter;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.Ordering;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.functions.util.NoOpFunction;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.fs.FileInputSplit;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.array.DoublePrimitiveArraySerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.ResourceSpec$Builder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.ResourceGuard;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.functions.util.RuntimeUDFContext;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.NullValueSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.KryoRegistrationSerializerConfigSnapshot$DummyKryoSerializerClass;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.TupleSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.GenericTypeComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.RuntimePairComparatorFactory;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.DualInputSemanticProperties;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.BooleanValueComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.TypeInfoParser;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.util.JoinHashMap$Prober;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.TypeExtractionException;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.fs.local.LocalBlockLocation;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.configuration.AlgorithmOptions;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.parser.LongParser;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.IntComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.SqlDateSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.FieldSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.fs.local.LocalFileStatus;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.CollectionUtil;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.io.SerializedOutputFormat;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.AbstractCloseableRegistry;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.CharValue;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.functions.AbstractRichFunction;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.fs.FSDataInputStreamWrapper;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.BooleanValue;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.array.BytePrimitiveArrayComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.io.compression.Bzip2InputStreamFactory;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.array.BytePrimitiveArraySerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.TupleComparatorBase;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.fs.LimitedConnectionsFileSystem$StreamTimeoutException;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.NetUtils;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.configuration.MemorySize;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.UnaryOperatorInformation;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.fs.FSDataOutputStream;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.serialization.SimpleStringSchema;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.StringValueUtils$WhitespaceTokenizer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.configuration.HeartbeatManagerOptions;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple3Builder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.TypeSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.parser.FloatValueParser;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.base.MapOperatorBase;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.functions.RichGroupCombineFunction;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.OutputTag;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.TypeComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.NoFetchingInput;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.GenericTypeSerializerConfigSnapshot;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeinfo.PrimitiveArrayTypeInfo;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.TupleSerializerBase;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.TraversableOnceException;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.TypeDeserializerAdapter;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.functions.util.CopyingListCollector;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.parser.BigIntParser;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.memory.DataInputDeserializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.configuration.DelegatingConfiguration;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.PropertiesUtil;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.TupleTypeInfo$TupleTypeComparatorBuilder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.InstantiationUtil$ClassLoaderObjectInputStream;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.GenericDataSinkBase;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.NullKeyFieldException;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.functions.InvalidTypesException;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.RowComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.Either$Left;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.ListValue;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.state.AggregatingStateDescriptor;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.memory.MemorySegment;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.memory.MemorySegmentFactory;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.configuration.HistoryServerOptions;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.GenericArraySerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.functions.util.CopyingIterator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.SqlTimeSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple10Builder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.io.BinaryInputFormat;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.accumulators.LongMinimum;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.RuntimeSerializerFactory;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple15Builder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.parser.BooleanValueParser;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.ExecutionConfig$SerializableSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.DoubleValue;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.RowTypeInfo;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.io.BinaryInputFormat$SequentialStatistics;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.InstantiationUtil;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.accumulators.DoubleMinimum;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.kryo.Serializers$DummyAvroKryoSerializerClass;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.FloatSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.Plan;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.state.ListStateDescriptor;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.aggregators.DoubleSumAggregator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.configuration.OptimizerOptions;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.BooleanComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.fs.SafetyNetCloseableRegistry$CloseableReaperThread;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.tuple.Tuple14;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.CharSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.tuple.Tuple13;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.ValueComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeinfo.SqlTimeTypeInfo;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.CharComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.cache.DistributedCache;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.parser.IntParser;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.ExecutorUtils;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple20Builder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.JobExecutionResult;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.FloatValueComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.SerializedValue;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.functions.NullByteKeySelector;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.CollectionExecutor$CompletedFuture;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.io.ReplicatingInputSplitAssigner;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.util.ListKeyGroupedIterator$ValuesIterator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.KryoRegistration;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.EnumSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.tuple.Tuple12;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.tuple.Tuple11;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.MultisetTypeInfo;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.tuple.Tuple10;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.functions.RichFlatMapFunction;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.aggregators.LongSumAggregator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.AvroUtils;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.ArchivedExecutionConfig;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.fs.UnsupportedSchemeFactory;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.accumulators.LongCounter;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.io.compression.DeflateInflaterInputStreamFactory;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.DoubleSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.base.ReduceOperatorBase;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.JavaToValueConverter;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.restartstrategy.RestartStrategies;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.SingleInputSemanticProperties$AllFieldsForwardedProperties;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.io.FilePathFilter$DefaultFilter;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.ListTypeInfo;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple9Builder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.LongSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.fs.ConnectionLimitingFactory;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.JobSubmissionResult;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.NullFieldException;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.io.RichInputFormat;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.aggregators.LongZeroConvergence;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.XORShiftRandom;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.DoubleValueSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.OperatorInformation;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.CompositeType;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.io.BinaryOutputFormat$BlockBasedOutput;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.array.FloatPrimitiveArraySerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.io.VersionMismatchException;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.util.FieldList;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.UnloadableDummyTypeSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.array.ShortPrimitiveArrayComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.parser.FieldParser;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.base.CoGroupOperatorBase$CoGroupSortListIterator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.io.PostVersionedIOReadableWritable;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.StateMigrationException;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.util.UserCodeObjectWrapper;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.state.FoldingStateDescriptor;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.Nothing;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.TupleTypeInfoBase;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.tuple.Tuple1;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.fs.LimitedConnectionsFileSystem$InStream;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.tuple.Tuple0;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.tuple.Tuple3;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.state.ReducingStateDescriptor;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.tuple.Tuple2;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.tuple.Tuple5;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.tuple.Tuple4;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.tuple.Tuple7;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.tuple.Tuple6;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.tuple.Tuple9;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.tuple.Tuple8;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.kryo.JavaSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.base.FilterOperatorBase;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.PlanExecutor;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.restartstrategy.RestartStrategies$FallbackRestartStrategyConfiguration;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.functions.RichCrossFunction;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.ByteValueSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.SplittableIterator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.OptionalConsumer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.functions.RichFilterFunction;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.Operator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.base.CoGroupRawOperatorBase$SimpleListIterable;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.ValueTypeInfo;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.base.CoGroupRawOperatorBase$SimpleListIterable$SimpleListIterator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.DateSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.tuple.Tuple;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.base.OuterJoinOperatorBase$OuterJoinListIterator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.memory.HybridMemorySegment;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeinfo.NumericTypeInfo;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.parser.SqlDateParser;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.base.BulkIterationBase$TerminationCriterionMapper;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.CharValueSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.MapSerializerConfigSnapshot;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.io.BlockInfo;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.LongValueComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.base.BulkIterationBase$TerminationCriterionAggregationConvergence;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.fs.local.LocalDataInputStream;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.functions.RichAggregateFunction;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.KryoUtils;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.Keys$IncompatibleKeysException;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.TypeExtractor;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.AvroUtils$DefaultAvroUtils;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.parser.DoubleValueParser;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.StringValueUtils;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.base.BulkIterationBase$TerminationCriterionAggregator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.SingleInputSemanticProperties;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.ShortComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.SameTypePairComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.BinaryOperatorInformation;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.array.BooleanPrimitiveArraySerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.fs.local.LocalFileSystem;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.SemanticProperties$EmptySemanticProperties;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.TupleComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.IntValue;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.ShutdownHookUtil;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.configuration.UnmodifiableConfiguration;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.array.DoublePrimitiveArrayComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.WrappingProxyUtil;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.NullValueComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.io.FileOutputFormat;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeinfo.Types;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.accumulators.ListAccumulator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.BooleanValueSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.CompatibilityUtil;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.IOUtils;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.base.InnerJoinOperatorBase;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.util.ListKeyGroupedIterator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.GenericTypeInfo;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.DoubleValueComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.state.ValueStateDescriptor;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.RuntimeComparatorFactory;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.accumulators.LongMaximum;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.parser.BigDecParser;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.DynamicCodeLoadingException;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.fs.UnsupportedFileSystemSchemeException;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.NullValue;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.configuration.GlobalConfiguration;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.EnumTypeInfo;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.ListSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.array.LongPrimitiveArrayComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.RowSerializer$RowSerializerConfigSnapshot;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.PojoTypeInfo;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple19Builder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.fs.FileSystem$FSKey;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.base.DeltaIterationBase$WorksetPlaceHolder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.time.Deadline;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.configuration.ConfigOptions;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.StringComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.io.GenericInputSplit;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.base.JoinOperatorBase;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.restartstrategy.RestartStrategies$NoRestartStrategyConfiguration;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.FileUtils;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.BigDecComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.TupleSerializerConfigSnapshot;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple16Builder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.memory.ByteArrayInputStreamWithPos;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.IntValueComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.memory.HeapMemorySegment;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.array.FloatPrimitiveArrayComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.EnumSerializer$EnumSerializerConfigSnapshot;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.CompositeType$InvalidFieldReferenceException;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.memory.DataOutputSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.ShortValueSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.BasicTypeComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.EitherTypeInfo;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.memory.DataInputViewStreamWrapper;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.ShortValue;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.accumulators.SerializedListAccumulator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.accumulators.AverageAccumulator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.functions.RichMapPartitionFunction;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.Preconditions;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.BooleanSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple11Builder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.configuration.CheckpointingOptions;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.util.FieldSet;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.io.SerializedInputFormat;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.kryo.Serializers;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple22Builder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.base.BulkIterationBase$PartialSolutionPlaceHolder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.RowTypeInfo$RowTypeComparatorBuilder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.TypeExtractionUtils$LambdaExecutable;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.RowSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.TypeSerializerConfigSnapshot;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.StringValueComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.parser.ByteValueParser;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.parser.FloatParser;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.kryo.MinlogForwarder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.parser.IntValueParser;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.resources.GPUResource;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.fs.LimitedConnectionsFileSystem$ConnectionLimitingSettings;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.MapTypeInfo;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.base.PartitionOperatorBase;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.CollectionExecutor$IterationRuntimeUDFContext;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.CloseableIterable$Empty;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.DataOutputViewStream;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.base.BulkIterationBase;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.Record$InternalDeSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.serialization.TypeInformationSerializationSchema;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple2Builder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.io.GlobFilePathFilter;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.configuration.Configuration;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.parser.SqlTimestampParser;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.TaskInfo;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.NullMaskUtils;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.io.FileInputFormat$InputSplitOpenThread;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.BigIntSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.array.IntPrimitiveArrayComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.functions.RichReduceFunction;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.StringBasedID;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.io.compression.GzipInflaterInputStreamFactory;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.parser.DoubleParser;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.serialization.AbstractDeserializationSchema;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.DataInputViewStream;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.PojoSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.memory.HeapMemorySegment$HeapMemorySegmentFactory;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.NullAwareComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.InvalidProgramException;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.fs.Path;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.ResourceSpec;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.configuration.QueryableStateOptions;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple1Builder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.cache.DistributedCache$DistributedCacheEntry;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.functions.RichCoGroupFunction;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple5Builder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.PojoField;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.configuration.MetricOptions;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.configuration.JobManagerOptions;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.Plan$MaxDopVisitor;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeinfo.FractionalTypeInfo;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeinfo.IntegerTypeInfo;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.aggregators.AggregatorRegistry;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.ParameterlessTypeSerializerConfig;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.parser.BooleanParser;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.functions.util.ListCollector;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.PojoComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.accumulators.IntMaximum;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.base.OuterJoinOperatorBase;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.restartstrategy.RestartStrategies$FailureRateRestartStrategyConfiguration;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.InstantiationUtil$FailureTolerantObjectInputStream;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.ReflectionUtil$FullTypeInfo;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.CollectionExecutor;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple24Builder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.accumulators.AccumulatorHelper;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.ObjectArrayTypeInfo;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.ReflectionUtil;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.StringValueSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.functions.RichMapFunction;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.io.VersionedIOReadableWritable;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.FloatValue;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.io.GenericInputFormat;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple7Builder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.Keys;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.configuration.RestOptions;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.configuration.ConfigOption;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.functions.util.AbstractRuntimeUDFContext;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.kryo.Serializers$DummyAvroRegisteredClass;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.MissingTypeInfo;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.io.LocatableInputSplitAssigner$LocatableInputSplitWithCount;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.kryo.Serializers$SpecificInstanceCollectionSerializerForArrayList;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.fs.FSDataInputStream;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.ShortValueComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.CompilerHints;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.NumberSequenceIterator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.base.SortPartitionOperatorBase;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.CompositeType$FlatFieldDescriptor;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.KryoRegistrationSerializerConfigSnapshot$KryoRegistrationSerializationProxy;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.io.ParseException;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.VoidSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.Tuple0Serializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeinfo.NothingTypeInfo;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeinfo.TypeInfoFactory;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.BigDecSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.OptionalFailure;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.base.DeltaIterationBase$SolutionSetPlaceHolder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.StringSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.CompositeTypeSerializerConfigSnapshot;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple17Builder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple18Builder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.array.PrimitiveArrayComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple12Builder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.SqlTimestampComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.IntSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.util.TypeComparable;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.base.CoGroupRawOperatorBase;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeinfo.TypeInformation;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.parser.SqlTimeParser;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.io.BinaryOutputFormat;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.CompositeTypeComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.base.FlatMapOperatorBase;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.AbstractID;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.KeyFieldOutOfBoundsException;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.SqlTimestampSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.PojoSerializer$PojoSerializerConfigSnapshot;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.GenericArraySerializerConfigSnapshot;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.io.RichOutputFormat;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.base.GroupCombineOperatorBase;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.base.GroupReduceOperatorBase;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.ResourceGuard$Lease;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.fs.FSDataOutputStreamWrapper;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.array.CharPrimitiveArraySerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.functions.RichFlatJoinFunction;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.AbstractUdfOperator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.ValueSerializer$ValueSerializerConfigSnapshot;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.TypeSerializerSerializationUtil$TypeSerializerSerializationProxy;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.kryo.KryoSerializerDebugInitHelper;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.io.LocatableInputSplit;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.SerializedThrowable;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.accumulators.Histogram;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.kryo.KryoSerializer$KryoSerializerConfigSnapshot;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.ByteSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.util.UserCodeClassWrapper;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.io.FilePathFilter;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.configuration.IllegalConfigurationException;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.NonSerializableUserCodeException;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.ConfigurationException;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.io.ReplicatingInputFormat;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.Union;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple23Builder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.array.BooleanPrimitiveArrayComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.io.LocatableInputSplitAssigner$LocatableInputSplitChooser;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.array.LongPrimitiveArraySerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.Either$Right;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.util.JoinHashMap;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.fs.AbstractMultiFSDataInputStream;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.operators.GenericDataSourceBase;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.runtime.CopyableValueComparator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.restartstrategy.RestartStrategies$RestartStrategyConfiguration;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.state.StateDescriptor;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.tuple.builder.Tuple6Builder;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.LongValue;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.util.LongValueSequenceIterator;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.io.compression.XZInputStreamFactory;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.types.StringValue;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.ExecutionConfig$GlobalJobParameters;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.java.typeutils.TypeExtractionUtils;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.MapSerializer;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.api.common.typeutils.base.TypeSerializerSingleton;NoA > 15;none;none
+ADR15;DRIFT;org.apache.flink.core.fs.SafetyNetCloseableRegistry$PhantomDelegatingCloseableRef;NoA > 15;none;none

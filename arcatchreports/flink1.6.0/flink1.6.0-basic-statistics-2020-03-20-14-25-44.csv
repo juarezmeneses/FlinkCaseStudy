@@ -1,0 +1,12 @@
+Project Name;Flink
+Project Source Path;./Flink/Flink_1.6.0/flink-core/src/main/java
+Number of Units;723
+Number of Exceptions;25
+Lines of Code;74846.0
+Catch Block Lines of Code;651.0
+Overall Number of Rules;16
+Overall Number of Passing Rules;13
+Number of Anti-Drift Rules;16
+Number of Anit-Drift Passing Rules;13
+Number of Anti-Erosion Rules;0
+Number of Anti-Erosion Passing Rules;0
